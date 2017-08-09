@@ -30,7 +30,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="mobilenav">
             <div id="header-nav" class="row">
-              <div class="col-md-6 col-md-offset-2">
+              <div class="col-md-6 center-block">
                 <ul class="nav nav-pills">
                   <li role="presentation" class="active"><a href="#home">home</a></li>
                   <li role="presentation"><a href="#about">about</a></li>
@@ -45,33 +45,39 @@
 
       <section id="home">
           <div class="content">
-            <img id="home-bg" src="img/bg-home.png" class="img-responsive" alt="">
-            <div class="content-text">
-              <h1 class="ttle">hi there!</h1>
-              <div class="">
-                <span>I’m Melo,</span>
-                <span class="textype"></span><br>
-                <span> Developer based in Texas, USA</span>
-              </div>
-              <div class="">
-                <h3>Here you’ll find some of my <mark>recent projects</mark> and a <mark>few personal works</mark></h3>
-                <h3>as well. Have a look around and if you’re interested in working</h3>
-                <h3>together, <mark>get in touch!</mark>. </h3>
-              </div>
-              <a href="#" class="btn btn-primary btn-lg btn-block">view portfolio</a>
+            <div class="row">
+               <div class="col-sm-12">
+                   <img alt="" class="img-responsive" src="img/bg-home.png" style=" width:100%;">
+                   <div class="caption">
+                       <h1>hi there!</h1>
+                       <div class="caption2">
+                         <span>I’m Melo,</span>
+                         <span class="textype"></span><br>
+                         <span> Developer based in Houston, TX</span>
+                       </div>
+                       <div class="caption3 hidden-xs">
+                         <h3>Here you’ll find some of my <mark>recent projects</mark> and a <mark>few personal works</mark></h3>
+                         <h3>as well. Have a look around and if you’re interested in working</h3>
+                         <h3>together, <mark>get in touch!</mark>. </h3>
+                       </div>
+                       <a href="#portfolio" class="btn btn-primary btn-lg hidden-xs">view portfolio</a>
+                   </div>
+               </div>
+             </div>
             </div>
-
           </div>
       </section>
 
-      <hr>
-
       <section id="about">
-          <div class="content">
-            <div class="content-text center-block">
-              <h1 class="ttle">about</h1>
-            </div>
-            <img class="title-bg" src="img/title-bg.png" class="img-responsive" alt="">
+        <div class="content">
+          <div class="row">
+             <div class="col-sm-12">
+                 <img alt="" class="img-responsive" src="img/title-bg.png" style=" width:100%;">
+                 <div class="caption">
+                     <h1>about</h1>
+                 </div>
+             </div>
+           </div>
           </div>
           <div class="row">
             <div class="col-sm-12 col-md-12">
@@ -100,42 +106,122 @@
       </section>
 
       <hr><hr><hr>
-
       <section id="portfolio">
-          <div class="content">
-            <div class="content-text center-block">
-              <h1 class="ttle">portfolio</h1>
-            </div>
-            <img class="title-bg" src="img/title-bg.png" class="img-responsive" alt="">
+        <div class="content">
+          <div class="row">
+             <div class="col-sm-12">
+                 <img alt="" class="img-responsive" src="img/title-bg.png" style=" width:100%;">
+                 <div class="caption">
+                     <h1>portfolio</h1>
+                 </div>
+             </div>
+           </div>
           </div>
           <div class="row">
-            <div class="col-sm-6 col-md-6">
-              <img src="img/work1.png" class="img-responsive center-block" alt="">
+            <div class="col-sm-3 col-md-3">
+              <div class="work-container">
+                <img src="img/work1.png" alt="" class=" img-rounded" style="width:100%;height:254px;">
+                <div class="overlay">
+                  <div class="text text-center">
+                      <h3>mykpopstoreph</h3>
+                      <h5>An e-commerce website which focuses on<br> kpop items and merchandise.<br> a modest website based on the philippines.</h5>
+                      <a href="http://mykpopstoreph.com/" style="color:black;" target="_blank">visit site
+                      <span class="glyphicon glyphicon-globe"></span></a>
+                    </div>
+                </div>
+                <span>stack:</span>
+                <span class="label label-default">html</span>
+                <span class="label label-default">css</span>
+                <span class="label label-default">javascript</span>
+                <span class="label label-default">php</span>
+                <span class="label label-default">wordpress</span>
+                <span class="label label-default">mysql</span>
+              </div>
             </div>
-            <div class="col-md-5 col-md-pull-1">
-              <h1 class="text-center">mykpopstoreph.com</h1>
-              <p class="lead justify">An e-commerce website which focuses on kpop items and merchandise. a modest website based on the philippines.</p>
-              <a href="#" class="btn btn-primary btn-lg btn-block">view website</a><br>
-              <span>stack:</span>
-              <span class="label label-default">html</span>
-              <span class="label label-default">css</span>
-              <span class="label label-default">javascript</span>
-              <span class="label label-default">php</span>
-              <span class="label label-default">wordpress</span>
-              <span class="label label-default">mysql</span>
+            <div class="col-sm-3 col-md-3">
+              <div class="work-container">
+                <img src="img/work2.png" alt="" class="image img-rounded" style="width:100%">
+                <div class="overlay">
+                  <div class="text text-center">
+                    <h3>innovative packaging</h3>
+                    <h5>IPIC has been known for a wide range <br>of services in the philippines.<br>It literally is your one stop <br>solution provider for manufacturing needs.</h5>
+                    <a href="http://innovativepkg.com.ph/" style="color:black;" target="_blank">visit site
+                    <span class="glyphicon glyphicon-globe"></span></a>
+                  </div>
+                </div>
+                <span>stack:</span>
+                <span class="label label-default">html</span>
+                <span class="label label-default">css</span>
+                <span class="label label-default">javascript</span>
+                <span class="label label-default">php</span>
+                <span class="label label-default">wordpress</span>
+                <span class="label label-default">mysql</span>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+              <div class="work-container">
+                <img src="img/work3.png" alt="" class="image" style="width:100%">
+                <div class="overlay">
+                  <div class="text text-center">
+                    <h3>shopsonline</h3>
+                    <h5>An e-commerce website which focuses on <br>kitchen appliances and exclusive only for their distributors.<br> it's based on the philippines.</h5>
+                    <a href="http://wnutritech.com/shopsonline/" style="color:black;" target="_blank">visit site
+                    <span class="glyphicon glyphicon-globe"></span></a>
+                  </div>
+                </div>
+                <span>stack:</span>
+                <span class="label label-default">html</span>
+                <span class="label label-default">css</span>
+                <span class="label label-default">javascript</span>
+                <span class="label label-default">php</span>
+                <span class="label label-default">codeigniter</span>
+                <span class="label label-default">mysql</span>
+                <span class="label label-default">mssql</span>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+              <div class="work-container">
+                <img src="img/work4.png" alt="" class="image" style="width:100%;height:254px;">
+                <div class="overlay">
+                  <div class="text text-center">
+                    <h3>nutrimobile</h3>
+                    <h5>An mobile app which focuses on <br>daily updates and checking commissions thru<br> smart phones and exclusive only for their distributors.<br> it's based on the philippines.</h5>
+                    <a href="https://play.google.com/store/apps/details?id=com.nutritech.nutriapp&hl=en" style="color:black;" target="_blank">visit playstore
+                    <span class="glyphicon glyphicon-globe"></span></a>
+                  </div>
+                </div>
+                <span>stack:</span>
+                <span class="label label-default">apache</span>
+                <span class="label label-default">cordova</span>
+                <span class="label label-default">javascript</span>
+                <span class="label label-default">jquery</span>
+                <span class="label label-default">mobile</span>
+                <span class="label label-default">mysql</span>
+                <span class="label label-default">mssql</span>
+              </div>
             </div>
           </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Personal Works</h1>
+            </div>
+
+
           </div>
       </section>
 
       <hr><hr><hr>
 
       <section id="contact">
-          <div class="content">
-            <div class="content-text center-block">
-              <h1 class="ttle">contact me</h1>
-            </div>
-            <img class="title-bg" src="img/title-bg.png" class="img-responsive" alt="">
+        <div class="content">
+          <div class="row">
+             <div class="col-sm-12">
+                 <img alt="" class="img-responsive" src="img/title-bg.png" style=" width:100%;">
+                 <div class="caption">
+                     <h1>contact me</h1>
+                 </div>
+             </div>
+           </div>
           </div>
           <div class="row">
             <div class="col-sm-12 col-md-12">
@@ -178,8 +264,8 @@
   });
 
 $(function(){
-  $(".nav a").click(function(e){
-    e.preventDefault();
+  $("a").click(function(e){
+    //e.preventDefault();
     $('html,body').scrollTo(this.hash,this.hash);
     $("li").removeClass("active");
     $(this).parent().toggleClass("active");
@@ -191,22 +277,6 @@ $(function(){
   //Changing nav colors on scroll
   $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
-    //$("li").removeClass("active");
-    /*
-    if (scroll >= 900) {
-      $("li").removeClass("active");
-      $("#about").parent().toggleClass("active");
-    }else if (scroll >= 1700) {
-      $("li").removeClass("active");
-      $("#portfolio").parent().toggleClass("active");
-    }else if (scroll >= 1959) {
-      $("li").removeClass("active");
-      $("#contact").parent().toggleClass("active");
-    }else{
-      $("#home").parent().toggleClass("active");
-    }
-    */
-    console.log(scroll)
     switch (true) {
       case (scroll >= 900 && scroll < 1700):
         $("li").removeClass("active");
